@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:gravity="center"
-        android:text="NCT-ToiDo"
+        android:text="NCiT-ToiDo"
         android:textSize="30dp" />
     <RelativeLayout
         android:id="@+id/bottom_layout"
