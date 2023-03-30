@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+    <LinearLayout
+        android:id="@+id/vw_leftChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#1976D2"
+        android:padding="8dp"
+        android:layout_marginEnd="80dp">
+        <TextView
+            android:id="@+id/txt_leftChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_alignParentEnd="true"
+        android:id="@+id/vw_rightChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#D32F2F"
+        android:padding="8dp"
+        android:layout_marginStart="80dp">
+        <TextView
+            android:id="@+id/txt_rightChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="18dp"/>
+    </LinearLayout>
+</RelativeLayout>
